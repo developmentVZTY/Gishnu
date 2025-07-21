@@ -443,9 +443,7 @@
                 <ul></ul>
               </div>
               <form
-                action="https://www.ventrex.com/en/contact/#wpcf7-f2063-o1"
-                method="post"
-                class="wpcf7-form init wpcf7-acceptance-as-validation"
+                id="contact-form" class="wpcf7-form init wpcf7-acceptance-as-validation"
                 aria-label="Contact form"
                 novalidate="novalidate"
                 data-status="init"
@@ -478,7 +476,7 @@
                         placeholder="Name*"
                         value=""
                         type="text"
-                        name="your-name"
+                        name="name"
                     /></span>
                   </div>
                   <div class="c-contact-form__company">
@@ -506,7 +504,7 @@
                         placeholder="Mail*"
                         value=""
                         type="email"
-                        name="Mail"
+                        name="email"
                     /></span>
                   </div>
                   <div class="c-contact-form__phone">
@@ -519,7 +517,7 @@
                         placeholder="Phone"
                         value=""
                         type="tel"
-                        name="Phone"
+                        name="phone"
                     /></span>
                   </div>
                   <div class="c-contact-form__message">
@@ -964,15 +962,39 @@
       src="/wp-content/plugins/contact-form-7/includes/js/index69c8.js%3Fver=5.8.4"
       id="contact-form-7-js"
     ></script>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init('pvdN7jZf79HHNm20v'); // Replace with your EmailJS public key
+  })();
+</script>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault(); // prevent default form submission
+
+    // Check if the checkbox is checked
+    if (!document.querySelector('[name="acceptance"]').checked) {
+      alert('Please accept the privacy policy.');
+      return;
+    }
+
+    emailjs.sendForm('service_1yme5zs', 'template_ojkdgvi', this)
+      .then(function () {
+        alert('Message sent successfully!');
+        document.getElementById('contact-form').reset();
+      }, function (error) {
+        console.log('FAILED...', error);
+        alert('Something went wrong. Please try again.');
+      });
+  });
+</script>
+
+
   </body>
 
   <!-- Mirrored from www.ventrex.com/en/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Dec 2024 07:13:17 GMT -->
 </html>
 
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Page Caching using disk: enhanced 
-
-Served from: www.ventrex.com @ 2024-12-23 08:30:55 by W3 Total Cache
--->
