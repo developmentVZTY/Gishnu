@@ -1705,7 +1705,7 @@ html.lenis {
 @media screen and (min-width: 48em) {
   .c-menu--top {
     grid-area: menu-top;
-    align-self: end;
+    /* align-self: end; */
   }
 }
 

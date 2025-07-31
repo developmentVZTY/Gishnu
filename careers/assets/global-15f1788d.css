@@ -986,7 +986,7 @@ html.lenis {
 @media screen and (min-width: 48em) {
   .c-menu .menu-item-big a {
     margin: min(1.5625rem, 25px) 0;
-    font-size: min(8.25rem, 120px);
+    font-size: min(8.25rem, 90px);
   }
 
   [lang="de-DE"] .c-menu .menu-item-big a {
