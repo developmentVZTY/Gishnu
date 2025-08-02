@@ -6639,7 +6639,7 @@ tr {
 }
 
 th {
-  background: #063062;
+  background: linear-gradient(45deg, #ec6b08, #0061ac);
   text-transform: uppercase;
   text-align: center;
   padding: 15px 0px;

@@ -319,6 +319,7 @@
         </div>
       </div>
 
+    
       <div class="c-header-overlay js-header-overlay">
         <div class="c-header-overlay__container container">
           <style>
@@ -334,8 +335,8 @@
             }
           </style>
           <div class="c-header-logo js-header-logo">
-            <a href="https://gishnu.vercel.app/en/series/index.html">
-              <img src="../../assets/logo-white.png" alt="" id="mywhitelogo" />
+            <a href="/index.html">
+              <img src="/assets/logo-white.png" alt="" id="mywhitelogo" />
             </a>
           </div>
 
@@ -343,14 +344,14 @@
             <li
               class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-63"
             >
-              <a href="../products/index.html" target="" class="c-menu__link">
+              <a href="/products/index.html" target="" class="c-menu__link">
                 <span> Products </span>
               </a>
             </li>
             <li
               class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-62"
             >
-              <a href="../projects/index.html" target="" class="c-menu__link">
+              <a href="/projects/index.html" target="" class="c-menu__link">
                 <span> Projects </span>
               </a>
             </li>
@@ -359,42 +360,75 @@
               class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
               <a
-                href="../Infrastructure/index.html"
+                href="/Infrastructure/index.html"
                 target=""
                 class="c-menu__link"
               >
                 <span> Infrastructure </span>
               </a>
             </li>
-          </ul>
-
-          <ul class="c-menu js-menu c-menu--bottom" data-component="Menu">
             <li
-              class="c-menu__item menu-item-small menu-item menu-item-type-post_type menu-item-object-page and menu-item-378"
+              class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
-              <a href="../about-us/index.html" target="" class="c-menu__link">
+              <a
+                href="/about-us/"
+                target=""
+                class="c-menu__link"
+              >
                 <span> About us </span>
               </a>
             </li>
-            <li
-              class="c-menu__item menu-item-small menu-item menu-item-type-post_type menu-item-object-page and menu-item-346"
+             <li
+              class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
-              <a href="../careers/index.html" target="" class="c-menu__link">
+              <a
+                href="/aerator-gearboxes.html"
+                target=""
+                class="c-menu__link"
+              >
+                <span> Aerator Gearboxes </span>
+              </a>
+            </li>
+            <li
+              class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
+            >
+              <a
+                href="/all-product.html"
+                target=""
+                class="c-menu__link"
+              >
+                <span> Consolidated Products </span>
+              </a>
+            </li>
+            <li
+              class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
+            >
+              <a
+                href="/careers/"
+                target=""
+                class="c-menu__link"
+              >
                 <span> Careers </span>
               </a>
             </li>
             <li
-              class="c-menu__item menu-item-small menu-item menu-item-type-post_type menu-item-object-page and menu-item-807"
+              class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
-              <a href="../blog/index.html" target="" class="c-menu__link">
-                <span> Blogs </span>
+              <a
+                href="/blog/"
+                target=""
+                class="c-menu__link"
+              >
+                <span> Blog </span>
               </a>
             </li>
           </ul>
 
+        
+
           <button class="c-header-close js-header-close"></button>
 
-          <a href="../contact.php/" class="c-header-contact js-header-contact"
+          <a href="/contact.php/" class="c-header-contact js-header-contact"
             >Contact us</a
           >
         </div>
@@ -573,6 +607,61 @@
 
       <!-- Overlay -->
       <div class="c-overlay-product js-overlay-product"></div>
+      <style>
+.cta-section {
+  background: linear-gradient(45deg, #ec6b08, #0061ac);
+  color: white;
+  padding: 40px 20px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-content {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cta-content h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-button {
+  background-color: white; /* Orange button */
+  color: black;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+  background-color: white;
+}
+</style>
+              <style>
+  @media (max-width:786px) {
+    #cta-button-div{
+       justify-content: center;
+       align-items: center;
+    }
+  }
+</style>
+              <!-- CTA SECTION -->
+<section class="cta-section">
+  <div class="cta-content">
+    <h2>Need Custom Gear Solutions?</h2>
+    <div id="cta-button-div" style="display: flex; gap: 10px; flex-wrap: wrap;">
+     <a href="/contact.php/" class="cta-button" style="">📞 +91 9943917774</a> <a href="/contact.php/" class="cta-button">CONTACT US</a>
+    </div>
+  </div>
+</section>
     </div>
 
     <style>
@@ -654,7 +743,7 @@
             >
               <div class="">
                 <img
-                  style="width: 170px; padding-top: 6px"
+                  style="width: 250px; padding-top: 6px"
                   class="lazy-background visible"
                   data-src="/assets/logo.svg"
                   src="../../assets/logo.svg"
