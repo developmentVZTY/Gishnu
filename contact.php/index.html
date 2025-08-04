@@ -281,6 +281,16 @@
       type="module"
       defer
     ></script>
+     <style>
+  @media (max-width:768px) {
+    .c-home-product-card__image{
+      margin-top: 25px;
+    }
+    .c-home-product-card{
+      height: 335px;
+    }
+  }
+</style>
   </head>
 
   <body
@@ -369,7 +379,7 @@
               class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
               <a
-                href="/aerator-gearboxes.html"
+                href="/aerator-gearboxes.html" style="display: none;"
                 target=""
                 class="c-menu__link"
               >
@@ -384,7 +394,7 @@
                 target=""
                 class="c-menu__link"
               >
-                <span> Consolidated Products </span>
+                <span> All Products </span>
               </a>
             </li>
             <li
@@ -415,8 +425,34 @@
 
           <button class="c-header-close js-header-close"></button>
 
-          <a href="/contact.php/" class="c-header-contact js-header-contact"
-            >Contact us</a
+                      <style>
+  
+    #cta-button-div2{
+      padding: 20px;
+      gap: 30px;
+      flex-direction: row;
+       justify-content: center;
+       align-items: center;
+    }
+    #phon1{
+        display: none;
+      }
+    @media (max-width:768px) {
+       #cta-button-div2{
+      /* padding: 20px; */
+      /* gap: 30px; */
+      flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+    }
+      #phon1{
+        display: block;
+      }
+    }
+  
+</style>
+          <p id="cta-button-div2" class="c-header-contact js-header-contact"
+            >     <a id="phon1" href="tel:+919943917774"  style="">📞 +91 9943917774</a> <a href="/contact.php/" >Contact Us</a></p
           >
         </div>
       </div>
@@ -663,12 +699,22 @@
         Get In Touch<br />
         <span class="u-blue-gradient">Let's find the solution together.</span>
       </h1>
+  
 
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.525649879695!2d77.1043867759285!3d11.074146589093298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8ffc435ab98d7%3A0x9a2268fafd306dd1!2sGishnu%20Gears%20(P)%20Ltd.%20%7C%20Automative%20Division%20(GAD)!5e0!3m2!1sen!2sin!4v1749038539189!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15662.941846871388!2d77.06025660037992!3d11.058449348340913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857dddc0e2ea1%3A0x346c356b8f0802d5!2sGishnu%20Gears%20(P)%20Ltd!5e0!3m2!1sen!2sin!4v1754306036093!5m2!1sen!2sin"
         width="100%"
         height="450"
         style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7831.189208984633!2d77.0954010437678!3d11.068990119686372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba84b43c595a677%3A0xaf7c703e30a74124!2sM.M%20Gears%20Pvt%20Ltd%20-%20Coimbatore%2C%20India!5e0!3m2!1sen!2sin!4v1754306110945!5m2!1sen!"
+        width="100%"
+        height="450"
+        style="border: 0; margin-top: 50px;"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
@@ -772,7 +818,7 @@
             >
               <div class="">
                 <img
-                  style="width: 250px; padding-top: 6px"
+                  style="width: 350px; padding-top: 6px"
                   class="lazy-background visible"
                   data-src="/assets/logo.svg"
                   src="/assets/logo.svg"

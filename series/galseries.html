@@ -287,6 +287,16 @@
       type="module"
       defer
     ></script>
+     <style>
+  @media (max-width:768px) {
+    .c-home-product-card__image{
+      margin-top: 25px;
+    }
+    .c-home-product-card{
+      height: 335px;
+    }
+  }
+</style>
   </head>
 
   <body
@@ -382,7 +392,7 @@
               class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
               <a
-                href="/aerator-gearboxes.html"
+                href="/aerator-gearboxes.html" style="display: none;"
                 target=""
                 class="c-menu__link"
               >
@@ -397,7 +407,7 @@
                 target=""
                 class="c-menu__link"
               >
-                <span> Consolidated Products </span>
+                <span> All Products </span>
               </a>
             </li>
             <li
@@ -428,8 +438,34 @@
 
           <button class="c-header-close js-header-close"></button>
 
-          <a href="/contact.php/" class="c-header-contact js-header-contact"
-            >Contact us</a
+          <style>
+  
+    #cta-button-div2{
+      padding: 20px;
+      gap: 30px;
+      flex-direction: row;
+       justify-content: center;
+       align-items: center;
+    }
+    #phon1{
+        display: none;
+      }
+    @media (max-width:768px) {
+       #cta-button-div2{
+      /* padding: 20px; */
+      /* gap: 30px; */
+      flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+    }
+      #phon1{
+        display: block;
+      }
+    }
+  
+</style>
+          <p id="cta-button-div2" class="c-header-contact js-header-contact"
+            >     <a id="phon1" href="tel:+919943917774"  style="">📞 +91 9943917774</a> <a href="/contact.php/" >Contact Us</a></p
           >
         </div>
       </div>
@@ -749,7 +785,7 @@
             >
               <div class="">
                 <img
-                  style="width: 250px; padding-top: 6px"
+                  style="width: 350px; padding-top: 6px"
                   class="lazy-background visible"
                   data-src="/assets/logo.svg"
                   src="../../assets/logo.svg"

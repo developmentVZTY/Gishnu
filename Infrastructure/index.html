@@ -284,11 +284,21 @@
       type="module"
       defer
     ></script>
-     <link rel="stylesheet" href="/Infrastructure/assets/global-15f1788d.css">
-    <link rel="stylesheet" href="/Infrastructure/assets/index-d4b3eb36.css">
+    <link rel="stylesheet" href="/Infrastructure/assets/global-15f1788d.css" />
+    <link rel="stylesheet" href="/Infrastructure/assets/index-d4b3eb36.css" />
     <script src="/Infrastructure/assets/index-2df84ebf.js"></script>
     <script src="/Infrastructure/assets/index-81d61584.js"></script>
-  
+<link rel="stylesheet" href="/wp-content/themes/playpress/playpress/assets/index-d4b3eb36.css">
+    <style>
+      @media (max-width: 768px) {
+        .c-home-product-card__image {
+          margin-top: 25px;
+        }
+        .c-home-product-card {
+          height: 335px;
+        }
+      }
+    </style>
   </head>
 
   <body
@@ -305,10 +315,12 @@
       />
     </a>
 
-   <div class="c-header js-header">
+    <div class="c-header js-header">
       <div class="c-header-toggle js-header-toggle">
         <div class="c-header-toggle__actions">
-          <a class="c-header-toggle__contact" href="/contact.php/">Contact us</a>
+          <a class="c-header-toggle__contact" href="/contact.php/"
+            >Contact us</a
+          >
           <button
             type="button"
             class="c-header-toggle__button js-header-toggle-button"
@@ -369,11 +381,7 @@
             <li
               class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
-              <a
-                href="/about-us/"
-                target=""
-                class="c-menu__link"
-              >
+              <a href="/about-us/" target="" class="c-menu__link">
                 <span> About us </span>
               </a>
             </li>
@@ -382,6 +390,7 @@
             >
               <a
                 href="/aerator-gearboxes.html"
+                style="display: none"
                 target=""
                 class="c-menu__link"
               >
@@ -391,45 +400,58 @@
             <li
               class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
-              <a
-                href="/all-product.html"
-                target=""
-                class="c-menu__link"
-              >
-                <span> Consolidated Products </span>
+              <a href="/all-product.html" target="" class="c-menu__link">
+                <span> All Products </span>
               </a>
             </li>
             <li
               class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
-              <a
-                href="/careers/"
-                target=""
-                class="c-menu__link"
-              >
+              <a href="/careers/" target="" class="c-menu__link">
                 <span> Careers </span>
               </a>
             </li>
             <li
               class="c-menu__item menu-item-big menu-item menu-item-type-post_type menu-item-object-page and menu-item-60"
             >
-              <a
-                href="/blog/"
-                target=""
-                class="c-menu__link"
-              >
+              <a href="/blog/" target="" class="c-menu__link">
                 <span> Blog </span>
               </a>
             </li>
           </ul>
 
-        
-
           <button class="c-header-close js-header-close"></button>
 
-          <a href="/contact.php/" class="c-header-contact js-header-contact"
-            >Contact us</a
-          >
+          <style>
+            #cta-button-div2 {
+              padding: 20px;
+              gap: 30px;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+            }
+            #phon1 {
+              display: none;
+            }
+            @media (max-width: 768px) {
+              #cta-button-div2 {
+                /* padding: 20px; */
+                /* gap: 30px; */
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+              }
+              #phon1 {
+                display: block;
+              }
+            }
+          </style>
+          <p id="cta-button-div2" class="c-header-contact js-header-contact">
+            <a id="phon1" href="tel:+919943917774" style=""
+              >📞 +91 9943917774</a
+            >
+            <a href="/contact.php/">Contact Us</a>
+          </p>
         </div>
       </div>
     </div>
@@ -437,12 +459,15 @@
     <div class="_playpress">
       <!-- hero -->
 
-      <section class="c-competence-hero js-competence-hero">
-        <video
-          playsinline
+      <section
+        class="c-competence-hero js-competence-hero"
+        data-component="CompetenceHero"
+      >
+        <!-- <video
+          playsinline=""
           webkit-playsinline="true"
           preload="metadata"
-          muted
+          muted=""
           autoplay="true"
           loop="true"
           style="
@@ -457,10 +482,19 @@
           <source
             src="https://headlinefest-steve-aoki-images.s3.eu-north-1.amazonaws.com/Gishnu+2024+Walkthru+video.mp4"
           />
-        </video>
+        </video> -->
+                <img  src="/assets/infr.jpg" style="position: absolute; height: 100%; width: 100%; object-fit: cover;" alt="">
+
         <div class="c-competence-hero__content">
           <h1
             class="c-competence-hero__title title-b js-competence-hero-title is-white"
+            style="
+              translate: none;
+              rotate: none;
+              scale: none;
+              opacity: 1;
+              transform: translate(0px, 0px);
+            "
           >
             INFRASTRUCTURE
           </h1>
@@ -473,7 +507,7 @@
         >
           <use
             xlink:href="../../wp-content/themes/playpress/public/sprites.svg#organic-2-desk"
-          />
+          ></use>
         </svg>
 
         <svg
@@ -482,7 +516,7 @@
         >
           <use
             xlink:href="../../wp-content/themes/playpress/public/sprites.svg#organic-1-mob"
-          />
+          ></use>
         </svg>
       </section>
 
@@ -545,61 +579,67 @@
       </section>
 
       <!-- cards -->
-             <style>
-.cta-section {
-  background: linear-gradient(45deg, #ec6b08, #0061ac);
-  color: white;
-  padding: 40px 20px;
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cta-content {
-  width: 100%;
-  max-width: 1100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.cta-content h2 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-.cta-button {
-  background-color: white; /* Orange button */
-  color: black;
-  padding: 12px 24px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  letter-spacing: 1px;
-  transition: background-color 0.3s ease;
-}
-.cta-button:hover {
-  background-color: white;
-}
-</style>
-              <style>
-  @media (max-width:786px) {
-    #cta-button-div{
-       justify-content: center;
-       align-items: center;
-    }
-  }
-</style>
-              <!-- CTA SECTION -->
-<section class="cta-section">
-  <div class="cta-content">
-    <h2>Need Custom Gear Solutions?</h2>
-    <div id="cta-button-div" style="display: flex; gap: 10px; flex-wrap: wrap;">
-     <a href="tel:+919943917774" class="cta-button" style="">📞 +91 9943917774</a> <a href="/contact.php/" class="cta-button">CONTACT US</a>
-    </div>
-  </div>
-</section>
+      <style>
+        .cta-section {
+          background: linear-gradient(45deg, #ec6b08, #0061ac);
+          color: white;
+          padding: 40px 20px;
+          margin-top: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .cta-content {
+          width: 100%;
+          max-width: 1100px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+        .cta-content h2 {
+          font-size: 1.8rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+        .cta-button {
+          background-color: white; /* Orange button */
+          color: black;
+          padding: 12px 24px;
+          border-radius: 10px;
+          text-decoration: none;
+          font-weight: bold;
+          letter-spacing: 1px;
+          transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+          background-color: white;
+        }
+      </style>
+      <style>
+        @media (max-width: 786px) {
+          #cta-button-div {
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      </style>
+      <!-- CTA SECTION -->
+      <section class="cta-section">
+        <div class="cta-content">
+          <h2>Need Custom Gear Solutions?</h2>
+          <div
+            id="cta-button-div"
+            style="display: flex; gap: 10px; flex-wrap: wrap"
+          >
+            <a href="tel:+919943917774" class="cta-button" style=""
+              >📞 +91 9943917774</a
+            >
+            <a href="/contact.php/" class="cta-button">CONTACT US</a>
+          </div>
+        </div>
+      </section>
     </div>
 
     <style>
@@ -616,20 +656,20 @@
     </style>
 
     <style>
-  .footerhead.mmb2{
-    font-size: 30px;
-  }
-  .foot-content{
-    font-size: 25px;
-    font-weight: 600;
-  }
-</style>
+      .footerhead.mmb2 {
+        font-size: 30px;
+      }
+      .foot-content {
+        font-size: 25px;
+        font-weight: 600;
+      }
+    </style>
     <style>
-  #myfooterimg{
-    width: 300px;
-    height: 300px;
-  }
-</style>
+      #myfooterimg {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
     <footer class="footer">
       <div class="foot-back lazy-background visible">
         <div class="container">
@@ -642,7 +682,8 @@
           </div>
           <div class="row mt10">
             <div
-              class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aos-init" style="opacity: 1 !important;"
+              class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aos-init"
+              style="opacity: 1 !important"
               data-aos="zoom-in"
             >
               <a href="https://linktr.ee/gishnugears">
@@ -661,7 +702,8 @@
           </div>
           <div class="row mt10">
             <div
-              class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aos-init" style="opacity: 1 !important;"
+              class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aos-init"
+              style="opacity: 1 !important"
               data-aos="zoom-in"
             >
               <p class="footerhead mmb2">Gishnu Gears Private Limited</p>
@@ -672,7 +714,8 @@
             </div>
 
             <div
-              class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aos-init" style="opacity: 1 !important;"
+              class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aos-init"
+              style="opacity: 1 !important"
               data-aos="zoom-in"
             >
               <p class="footerhead mmb2 mmt10">MM Gears Private Limited,</p>
@@ -683,12 +726,13 @@
             </div>
 
             <div
-              class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aos-init" style="opacity: 1 !important;"
+              class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aos-init"
+              style="opacity: 1 !important"
               data-aos="zoom-in"
             >
               <div class="">
                 <img
-                  style="width: 250px; padding-top: 6px"
+                  style="width: 350px; padding-top: 6px"
                   class="lazy-background visible"
                   data-src="/assets/logo.svg"
                   src="../../assets/logo.svg"
