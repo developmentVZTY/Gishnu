@@ -1,0 +1,357 @@
+{
+  "products": {
+    "a1-aerator-gearbox": {
+      "w": 700,
+      "h": 793,
+      "widths": [
+        320,
+        640,
+        700
+      ]
+    },
+    "a3-aerator-gearbox": {
+      "w": 890,
+      "h": 994,
+      "widths": [
+        320,
+        640,
+        890
+      ]
+    },
+    "a4-aerator-gearbox-housing": {
+      "w": 752,
+      "h": 803,
+      "widths": [
+        320,
+        640,
+        752
+      ]
+    },
+    "a4-aerator-gearbox": {
+      "w": 665,
+      "h": 725,
+      "widths": [
+        320,
+        665
+      ]
+    },
+    "b-series-steering-bevel-gearbox": {
+      "w": 880,
+      "h": 929,
+      "widths": [
+        320,
+        640,
+        880
+      ]
+    },
+    "c-series-machined-housing": {
+      "w": 1197,
+      "h": 964,
+      "widths": [
+        320,
+        640,
+        960,
+        1197
+      ]
+    },
+    "c-series-machined-transfer-housing": {
+      "w": 896,
+      "h": 964,
+      "widths": [
+        320,
+        640,
+        896
+      ]
+    },
+    "g-series-gu-worm-gearbox": {
+      "w": 1035,
+      "h": 1248,
+      "widths": [
+        320,
+        640,
+        1035
+      ]
+    },
+    "g-series-gv-worm-gearbox": {
+      "w": 1321,
+      "h": 1191,
+      "widths": [
+        320,
+        640,
+        960,
+        1321
+      ]
+    },
+    "gal-series-aluminium-worm-gearbox-black": {
+      "w": 944,
+      "h": 1148,
+      "widths": [
+        320,
+        640,
+        944
+      ]
+    },
+    "gal-series-aluminium-worm-gearbox-blue": {
+      "w": 3771,
+      "h": 4588,
+      "widths": [
+        320,
+        640,
+        960,
+        1440
+      ]
+    },
+    "gbh-200-aerator-gearbox": {
+      "w": 857,
+      "h": 834,
+      "widths": [
+        320,
+        640,
+        857
+      ]
+    },
+    "h-series-inline-helical-geared-motor-front": {
+      "w": 1175,
+      "h": 1283,
+      "widths": [
+        320,
+        640,
+        960,
+        1175
+      ]
+    },
+    "h-series-inline-helical-geared-motor-rear": {
+      "w": 1107,
+      "h": 1076,
+      "widths": [
+        320,
+        640,
+        960,
+        1107
+      ]
+    },
+    "m-series-bevel-helical-gearbox-vertical-shaft": {
+      "w": 600,
+      "h": 360,
+      "widths": [
+        320,
+        600
+      ]
+    },
+    "m-series-bevel-helical-gearbox": {
+      "w": 2137,
+      "h": 1491,
+      "widths": [
+        320,
+        640,
+        960,
+        1440
+      ]
+    },
+    "m-series-custom-built-gearbox-assembly": {
+      "w": 927,
+      "h": 1250,
+      "widths": [
+        320,
+        640,
+        927
+      ]
+    },
+    "m-series-custom-built-housing-front": {
+      "w": 1285,
+      "h": 1233,
+      "widths": [
+        320,
+        640,
+        960,
+        1285
+      ]
+    },
+    "m-series-custom-built-housing-rear": {
+      "w": 1371,
+      "h": 1233,
+      "widths": [
+        320,
+        640,
+        960,
+        1371
+      ]
+    },
+    "m-series-customised-helical-gearbox": {
+      "w": 1820,
+      "h": 1546,
+      "widths": [
+        320,
+        640,
+        960,
+        1440
+      ]
+    },
+    "o-series-bevel-gear-set": {
+      "w": 969,
+      "h": 1112,
+      "widths": [
+        320,
+        640,
+        969
+      ]
+    },
+    "o-series-spiral-bevel-gear-alt": {
+      "w": 995,
+      "h": 1119,
+      "widths": [
+        320,
+        640,
+        995
+      ]
+    },
+    "o-series-spiral-bevel-gear": {
+      "w": 1053,
+      "h": 1154,
+      "widths": [
+        320,
+        640,
+        960,
+        1053
+      ]
+    },
+    "z-series-custom-gearbox": {
+      "w": 1016,
+      "h": 1183,
+      "widths": [
+        320,
+        640,
+        1016
+      ]
+    }
+  },
+  "photos": {
+    "banner-gear-inspection-1": {
+      "w": 1349,
+      "h": 426,
+      "widths": [
+        640,
+        1024,
+        1349
+      ]
+    },
+    "banner-gear-inspection-2": {
+      "w": 1349,
+      "h": 426,
+      "widths": [
+        640,
+        1024,
+        1349
+      ]
+    },
+    "bearings-and-drive-components": {
+      "w": 6720,
+      "h": 4480,
+      "widths": [
+        640,
+        1024,
+        1600,
+        2000
+      ]
+    },
+    "careers-illustration": {
+      "w": 7000,
+      "h": 3500,
+      "widths": [
+        640,
+        1024,
+        1600,
+        2000
+      ]
+    },
+    "gal-gearbox-studio-scene": {
+      "w": 1296,
+      "h": 1749,
+      "widths": [
+        640,
+        1024,
+        1296
+      ]
+    },
+    "gear-finishing-by-hand": {
+      "w": 6720,
+      "h": 4480,
+      "widths": [
+        640,
+        1024,
+        1600,
+        2000
+      ]
+    },
+    "gear-train-monochrome": {
+      "w": 1500,
+      "h": 700,
+      "widths": [
+        640,
+        1024,
+        1500
+      ]
+    },
+    "helical-gear-teeth-closeup": {
+      "w": 4256,
+      "h": 2832,
+      "widths": [
+        640,
+        1024,
+        1600,
+        2000
+      ]
+    },
+    "precision-gear-assembly": {
+      "w": 3467,
+      "h": 2000,
+      "widths": [
+        640,
+        1024,
+        1600,
+        2000
+      ]
+    },
+    "precision-machined-components": {
+      "w": 5184,
+      "h": 3456,
+      "widths": [
+        640,
+        1024,
+        1600,
+        2000
+      ]
+    },
+    "transmission-gear-shafts": {
+      "w": 5472,
+      "h": 3648,
+      "widths": [
+        640,
+        1024,
+        1600,
+        2000
+      ]
+    }
+  },
+  "generated": "2026-11-23",
+  "brand": {
+    "logo": {
+      "w": 1270,
+      "h": 402.5
+    },
+    "wordmark": {
+      "w": 1270,
+      "h": 331.5
+    }
+  },
+  "video": {
+    "gishnu-gears-brand-film-landscape": {
+      "w": 1920,
+      "h": 1080
+    },
+    "gishnu-gears-brand-film-portrait": {
+      "w": 740,
+      "h": 1080
+    }
+  }
+}
