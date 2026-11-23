@@ -49,7 +49,17 @@
       "statusCode": 301
     },
     {
+      "source": "/Infrastructure/",
+      "destination": "/infrastructure/",
+      "statusCode": 301
+    },
+    {
       "source": "/Infrastructure/:path*",
+      "destination": "/infrastructure/",
+      "statusCode": 301
+    },
+    {
+      "source": "/Infrastructure222/",
       "destination": "/infrastructure/",
       "statusCode": 301
     },
@@ -64,8 +74,18 @@
       "statusCode": 301
     },
     {
+      "source": "/contact-us/",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
       "source": "/contact-us/:path*",
       "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog22/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
@@ -74,8 +94,18 @@
       "statusCode": 301
     },
     {
+      "source": "/careers22/",
+      "destination": "/careers/",
+      "statusCode": 301
+    },
+    {
       "source": "/careers22/:path*",
       "destination": "/careers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/series/",
+      "destination": "/products/",
       "statusCode": 301
     },
     {
@@ -96,6 +126,11 @@
     {
       "source": "/products/z-series.html",
       "destination": "/series/z-series.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/custome-built/",
+      "destination": "/products/custom-built-gearboxes.html",
       "statusCode": 301
     },
     {
@@ -139,7 +174,17 @@
       "statusCode": 301
     },
     {
+      "source": "/all-product/",
+      "destination": "/all-product.html",
+      "statusCode": 301
+    },
+    {
       "source": "/all-product",
+      "destination": "/all-product.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/all-products/",
       "destination": "/all-product.html",
       "statusCode": 301
     },
@@ -154,8 +199,18 @@
       "statusCode": 301
     },
     {
+      "source": "/aerator-gearboxes/",
+      "destination": "/aerator-gearboxes.html",
+      "statusCode": 301
+    },
+    {
       "source": "/aerator-gearboxes",
       "destination": "/aerator-gearboxes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/about/",
+      "destination": "/about-us/",
       "statusCode": 301
     },
     {
@@ -164,13 +219,28 @@
       "statusCode": 301
     },
     {
+      "source": "/privacy/",
+      "destination": "/privacy-policy/",
+      "statusCode": 301
+    },
+    {
       "source": "/privacy",
       "destination": "/privacy-policy/",
       "statusCode": 301
     },
     {
+      "source": "/en/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
       "source": "/en/:path*",
       "destination": "/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/",
+      "destination": "/",
       "statusCode": 301
     },
     {

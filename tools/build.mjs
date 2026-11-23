@@ -114,7 +114,17 @@ function collectPages() {
 // ---- 3. Redirects (old URL -> new URL, all permanent) -------------------------------
 function redirects(pages) {
   const r = [];
-  const add = (source, destination) => { if (!r.some((x) => x.source === source)) r.push({ source, destination, statusCode: 301 }); };
+  const push = (source, destination) => { if (!r.some((x) => x.source === source)) r.push({ source, destination, statusCode: 301 }); };
+  // Vercel matches a source exactly, and with trailingSlash on it first sends /old to
+  // /old/. A folder-style address therefore needs a rule for its trailing-slash form:
+  // "/old/:path*" matches /old and /old/page.html but not /old/ itself.
+  const hasExtension = (s) => /\.[a-z0-9]+$/i.test(s);
+  const add = (source, destination) => {
+    const wildcard = source.endsWith('/:path*');
+    const base = wildcard ? source.slice(0, -'/:path*'.length) : source;
+    if (!hasExtension(base)) push(`${base}/`, destination.replace(':path*', ''));
+    push(source, destination);
+  };
   add('/index.html', '/');
   for (const p of pages) if (p.file.endsWith('/index.html')) add(`${p.url}index.html`, p.url);
   // Renamed sections and pages
