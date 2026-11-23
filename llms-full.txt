@@ -1,0 +1,276 @@
+# Gishnu Gears: full company and product reference
+
+Source: https://www.gishnugears.com/ (official website of Gishnu Gears Private Limited). Figures below are those published by the company. Ratings of individual gearboxes depend on size and ratio and should be confirmed with the manufacturer.
+
+## Company overview
+
+Gishnu Gears Private Limited is an ISO 9001:2015 certified industrial gearbox manufacturer in Coimbatore, Tamil Nadu, India. Founded in 1995 as M.M Gears (P) Ltd, the company designs and manufactures worm, helical, bevel, aerator and custom-built gearboxes, precision gears and machined components.
+
+- Legal name: Gishnu Gears Private Limited
+- Brand name: Gishnu Gears
+- Tagline: Transforming Innovation
+- Founded: 1995, as M.M Gears (P) Ltd. Operating as Gishnu Gears since 2011.
+- Certification: ISO 9001:2015
+- Address: S.F. No. 796, Door No. 3/217K, Avinashi Road, Near Hotel Le Meridian, Neelambur, Coimbatore – 641062, Tamil Nadu, India
+- Phone: +91 99439 17774
+- GSTIN: 33AAHCG6311Q1ZD
+- Website: https://www.gishnugears.com/
+- Associated company: MM Gears Private Limited, Plot No. J9, SIPCOT Industrial Growth Centre, Perundurai, Tamil Nadu 638052 (GSTIN 33AABCM4110H1Z3)
+- Social profiles: https://www.linkedin.com/company/gishnu-gears/, https://www.youtube.com/channel/UC7lr-tXnGkyKBBSXh0EF0hg, https://www.facebook.com/gishnugears.in/, https://linktr.ee/gishnugears
+
+Gishnu Gears specialises in custom-built gear solutions for industrial, automotive, textile and nuclear applications. It manufactures bevel gears, helical gearboxes, planetary gear systems, worm gearboxes and other specialised gear solutions using CNC technology and precision machining. It serves industries across India and international markets, shipping from Coimbatore through nearby airports and ports. In 2022 it launched customisation for international customers with the Z-Series (gearboxes) and the O-Series (gear spares), targeting Europe, Southeast Asia and North America.
+
+## Manufacturing infrastructure
+
+The facility covers 50,000 sq. ft across three units and is organised into design and development, manufacturing, quality checking and delivery departments, with an in-house design team.
+
+### Gear cutting
+- Nimble NOAH 400H: CNC gear hobbing
+- Nidec ST25: Gear shaper
+- Hobbing machine: Gear hobbing
+- Horizontal broaching machine: Keyways and internal profiles
+
+### Gear grinding
+- Höfler Helix 400: Gear grinding
+- Worm grinding machine: Worm shaft finishing
+
+### Machining
+- CNC turning machine: Shafts and turned components
+- Thread milling machine: Threaded features
+
+### Inspection and testing
+- Klingelnberg P40: Gear measuring centre
+- Accurate Spectra: Coordinate measuring machine (CMM)
+- Brinell hardness tester KB300H: Hardness testing
+- Rockwell hardness tester: Hardness testing
+- Gauges and instruments: All types, for in-process checks
+
+## Product series
+
+### GAL-Series: Aluminium worm gearboxes
+
+URL: https://www.gishnugears.com/series/gal-series.html
+
+GAL is our worm gear reducer in an aluminium housing. It answers the two things most light-duty drives ask for at once: efficiency and adaptability. The aluminium body keeps weight down, which makes the gearbox easy to mount on machine frames, mobile equipment and anywhere the drive should not add load to the structure.
+
+A single stage covers the everyday ratios. Where a slower output is needed, double-reduction types extend the range, so one housing family serves a wide spread of speeds without changing the machine layout.
+
+Use case: Lightweight aluminium worm reduction gearboxes for efficiency and hygiene.
+
+Specifications:
+- Models: GAL 40 to GAL 150
+- Gear type: Worm, single and double reduction
+- Ratio: 5 to 100
+- Motor power: 0.5 to 20 HP
+- Housing: Aluminium
+- Output torque: Up to 800 Nm
+
+Applications: Food and medical grinders; Pharmaceutical process lines; Water pumps for clean-water processing; Packaging machinery.
+
+Models:
+- GAL 40–150 aluminium worm gearbox (https://www.gishnugears.com/products/gal-40-150-aluminium-worm-gearbox.html): An aluminium worm gear reducer covering ratios 5 to 100 and motors from 0.5 to 20 HP. Models: GAL 40 to GAL 150; Ratio: 5 to 100; Motor power: 0.5 to 20 HP; Housing: Aluminium; Reduction: Single and double; Output torque: Up to 800 Nm.
+
+### A-Series: Aquaculture aerator gearboxes
+
+URL: https://www.gishnugears.com/series/a-series.html
+
+Aquaculture gearboxes are used in prawn and shrimp culture. The gearbox drives the paddle-wheel sets that break the water surface and generate the aeration bubbles a pond needs, turning motor speed into the slow, steady rotation that keeps dissolved oxygen up around the clock.
+
+The same arrangement suits other aeration systems that improve oxygen levels in water, including wastewater treatment plants. The A-Series covers the common motor sizes with four models, so the gearbox can be matched to the pond and paddle set rather than the other way round.
+
+Use case: Gearboxes designed for aeration systems that improve oxygen levels in water.
+
+Specifications:
+- Models: A1, A3, A4, GBH 200
+- Application: Paddle-wheel aerators
+- Ratio: 11 to 14.4
+- Motor power: 1 to 3 HP
+
+Applications: Prawn and shrimp culture; Fish farming aeration; Wastewater treatment plants.
+
+Models:
+- A1 aerator gearbox (https://www.gishnugears.com/products/a1-aerator-gearbox.html): The A1 is the 1 HP gearbox in our aquaculture range, with a fixed 14.4 ratio for paddle-wheel pond aerators. Model: A1; Ratio: 14.4; Motor power: 1 HP; Application: Paddle-wheel aerators.
+- A3 aerator gearbox (https://www.gishnugears.com/products/a3-aerator-gearbox.html): The A3 covers the widest motor range in the series, from 1 to 3 HP, with ratios between 11 and 13.7. Model: A3; Ratio: 11 to 13.7; Motor power: 1 to 3 HP; Application: Paddle-wheel aerators.
+- A4 aerator gearbox (https://www.gishnugears.com/products/a4-aerator-gearbox.html): The A4 is the 2 to 3 HP aerator gearbox, with a fixed 12.6 ratio. Model: A4; Ratio: 12.6; Motor power: 2 to 3 HP; Application: Paddle-wheel aerators.
+- GBH 200 aerator gearbox (https://www.gishnugears.com/products/gbh-200-aerator-gearbox.html): The GBH 200 is the 3 HP unit of the range, offered with ratios from 11 to 13.7. Model: GBH 200; Ratio: 11 to 13.7; Motor power: 3 HP; Application: Paddle-wheel aerators.
+
+### B-Series: Steering bevel gearboxes
+
+URL: https://www.gishnugears.com/series/b-series.html
+
+Power steering bevel gears are precision-engineered components that transmit torque from the steering wheel to the steering mechanism. Cut and assembled correctly, they make steering smoother and more controlled, which improves vehicle manoeuvrability and driver comfort.
+
+The B-Series packages that bevel gearing as a compact gearbox for efficient angular power transmission. Outside automotive steering, the same right-angle arrangement is used in material handling equipment and conveyor systems.
+
+Use case: Steering bevel gearboxes that provide efficient angular power transmission.
+
+Specifications:
+- Models: B0 to B07
+- Gear type: Bevel
+- Ratio: 1:1
+
+Applications: Automotive steering mechanisms; Material handling equipment; Conveyor systems.
+
+Models:
+- B0–B07 steering bevel gearbox (https://www.gishnugears.com/products/b0-b07-steering-bevel-gearbox.html): A 1:1 bevel gearbox, models B0 to B07, for transmitting steering torque through a change of direction. Models: B0 to B07; Gear type: Bevel; Ratio: 1:1.
+
+### C-Series: Precision-machined housings
+
+URL: https://www.gishnugears.com/series/c-series.html
+
+The C-Series is our precision machining work: housings for machine components, produced with the accuracy and repeatability that a gear train depends on. Bores, faces and mounting features are machined so that each housing integrates cleanly with the parts around it.
+
+These components go into heavy-duty equipment used in raw-material processing. They are essential parts of concrete lorry mixers, industrial milling machinery and other precision machining applications.
+
+Use case: Heavy-duty machined components used in raw-material processing equipment.
+
+Specifications:
+- Products: Machined housings and components
+- Made to: Customer drawing
+
+Applications: Concrete lorry mixers; Industrial milling; Precision machining industries.
+
+Models:
+- Precision-machined housings (https://www.gishnugears.com/products/precision-machined-housings.html): Housings for machine components, machined to drawing for accuracy and reliable integration. Product: Machined housings and components; Made to: Customer drawing; Typical use: Mixers, milling, heavy-duty machinery.
+
+### G-Series: Worm reduction gearboxes
+
+URL: https://www.gishnugears.com/series/g-series.html
+
+The G-Series is our core range of industrial gearboxes for general power transmission. It delivers high torque reduction from a compact design, which is why it turns up on so many machines: wherever a motor has to be slowed down and its torque multiplied in a small space.
+
+The range runs from the compact GU 162 to 337 models to the larger GV 400 to 900 models, with ratios from 5 to 70 and motor options from 0.5 to 30 HP. Housings are built from cast iron and steel for durability in demanding operating conditions.
+
+Use case: High torque reduction with a compact design.
+
+Specifications:
+- Types: GU and GV
+- Models: GU 162 to 337, GV 400 to 900
+- Ratio: 5 to 70
+- Motor power: 0.5 to 30 HP
+
+Applications: Household grinders; Water pumps; Conveyor belts and material handling; Food processing machinery; Packaging machinery; Agricultural machinery.
+
+Models:
+- GU type worm gearbox (https://www.gishnugears.com/products/gu-type-worm-gearbox.html): The compact end of the G-Series: GU 162 to 337 worm reduction gearboxes for everyday industrial drives. Type: GU; Models: GU 162 to GU 337; Series ratio range: 5 to 70; Series motor range: 0.5 to 30 HP.
+- GV type worm gearbox (https://www.gishnugears.com/products/gv-type-worm-gearbox.html): The larger G-Series models: GV 400 to 900 worm reduction gearboxes for heavier duties. Type: GV; Models: GV 400 to GV 900; Series ratio range: 5 to 70; Series motor range: 0.5 to 30 HP.
+
+### H-Series: Inline helical geared motors
+
+URL: https://www.gishnugears.com/series/h-series.html
+
+Our inline helical geared motors are available in double and triple reduction models, with motorised or solid-shaft inputs, to satisfy slow-speed and high-torque applications. Input and output sit on the same axis, so the drive fits in line with the machine.
+
+The units are fully metric and suit both horizontal and vertical drive applications. They are available in foot-mounted and flange-mounted versions, and are made to high standards of accuracy, with minimal noise and a fine surface finish.
+
+Use case: High-efficiency gearboxes with inline shaft alignment for demanding applications.
+
+Specifications:
+- Models: GH 20 to GH 80
+- Gear type: Inline helical, double and triple reduction
+- Ratio: 5 to 120
+- Motor power: 0.5 to 20 HP
+- Input: Motorised or solid shaft
+- Mounting: Foot or flange, horizontal or vertical
+- Output torque: Up to 5,000 Nm
+
+Applications: Mining operations; Crushers; Industrial mixers; Agriculture equipment; Conveyors and elevators; Textile and manufacturing lines.
+
+Models:
+- GH 20–80 inline helical geared motor (https://www.gishnugears.com/products/gh-20-80-inline-helical-geared-motor.html): A double or triple reduction inline helical geared motor for slow-speed, high-torque applications. Models: GH 20 to GH 80; Ratio: 5 to 120; Motor power: 0.5 to 20 HP; Reduction: Double and triple; Input: Motorised or solid shaft; Mounting: Foot or flange; Orientation: Horizontal or vertical; Output torque: Up to 5,000 Nm.
+
+### M-Series: Custom-built gearboxes
+
+URL: https://www.gishnugears.com/series/m-series.html
+
+As gearbox manufacturers, we produce a wide range of customised and tailor-made industrial gearboxes and drives. With them we meet power transmission needs in selected industries that a catalogue unit cannot.
+
+Our major strength is the ability to customise an existing standard product into a new design that meets industry-standard requirements. Our qualified engineers design the product only after securing the complete specification for the application from the client, including the most demanding ones.
+
+Use case: Fully customised gearboxes for various industries and applications.
+
+Specifications:
+- Products: Custom-built gearboxes, bevel helical gearboxes
+- Ratio: To specification
+- Motor power: To specification
+- Design basis: Customer specification
+
+Applications: Specialised machinery; Prototype equipment; Automotive projects; Industrial automation.
+
+Models:
+- Custom-built gearboxes (https://www.gishnugears.com/products/custom-built-gearboxes.html): Tailor-made industrial gearboxes and drives, engineered from your complete specification. Product: Custom-built gearbox; Ratio: To specification; Motor power: To specification; Design basis: Customer specification.
+- Bevel helical gearbox (https://www.gishnugears.com/products/bevel-helical-gearbox.html): Bevel helical gearboxes built to order within our M-Series custom programme. Product: Bevel helical gearbox; Ratio: To specification; Motor power: To specification; Design basis: Customer specification.
+
+### O-Series: High-precision special gears
+
+URL: https://www.gishnugears.com/series/o-series.html
+
+High-precision special gears are transmission components made for critical applications across industries such as aerospace, automotive, medical devices and precision machinery. They are what keeps motion smooth and accurate in vehicle transmissions, medical equipment and precision machines.
+
+The O-Series was created for international markets, where gears and gear spares have to meet demanding standards of quality and precision. It is built on tight-tolerance machining and is supplied for high-pressure industrial machinery, hydraulic systems and export-oriented heavy engineering projects.
+
+Use case: Special gears for export markets that require durable, precise performance.
+
+Specifications:
+- Products: Special gears and gear spares
+- Shown: Spiral bevel gear, bevel gear set
+- Made to: Customer drawing
+
+Applications: High-pressure industrial machinery; Hydraulic systems; Vehicle transmissions; Precision machinery; Export heavy engineering projects.
+
+Models:
+- High-precision special gears (https://www.gishnugears.com/products/high-precision-special-gears.html): Precision transmission gears made to drawing for critical applications and export customers. Product: Special gears and gear spares; Examples: Spiral bevel gears, bevel gear sets; Made to: Customer drawing.
+
+### Z-Series: Non-standard gearboxes
+
+URL: https://www.gishnugears.com/series/z-series.html
+
+The Z-Series specialises in non-standard and customised gearboxes. Our engineering team works to provide an optimised, tailored solution for a customer’s challenging requirement, from the first layout to production units.
+
+Continuous improvement of our production processes and the development of our own technology let us offer a personalised project to each customer, increasing their competitiveness in the global market. The series has been part of our customisation programme for international customers since 2022.
+
+Use case: Specially customised gearboxes designed for industry-specific applications.
+
+Specifications:
+- Supply: Volume-based, built to order
+- Ratio: Customised
+- Motor power: As per specification
+- Customisation: Shaft orientation, housing material, gear profile, coatings
+- Load rating: Up to 10,000 Nm and beyond
+
+Applications: Screw-jack gearboxes; Cooling tower gearboxes; Tyre changer gearboxes; Electric vehicle and automation projects; High-performance industrial equipment.
+
+
+## Aerator gearboxes
+
+URL: https://www.gishnugears.com/aerator-gearboxes.html
+
+Aerator gearboxes drive paddle-wheel aerators in prawn and shrimp culture and aeration systems in wastewater treatment plants, biogas plants and aeration basins. Models: A1 (ratio 14.4, 1 HP), A3 (ratio 11 to 13.7, 1 to 3 HP), A4 (ratio 12.6, 2 to 3 HP), GBH 200 (ratio 11 to 13.7, 3 HP). Published construction details: gear ratios up to 50:1; torque capacity up to 10,000 Nm; foot-mounted and flange-mounted options for horizontal and vertical installation; EN-GJS-600 ductile iron; double-lip oil seals with labyrinth construction; heavy-duty tapered roller bearings; factory-filled synthetic oil (VG 220/320). All gearboxes are tested under load before dispatch. Options include anti-rust epoxy coating, integrated torque arms and IEC motor adaptability.
+
+## Custom projects
+
+URL: https://www.gishnugears.com/projects/
+
+Custom gearboxes are engineered to order through the M-Series (custom-built and bevel helical gearboxes) and the Z-Series (non-standard gearboxes produced in volume). Z-Series project types:
+- Screw-jack gearboxes: Gearboxes that drive screw jacks, where rotary input becomes controlled linear lift. Engineered around the load, travel speed and mounting of the jack system.
+- Cooling tower gearboxes: Gearboxes for cooling tower drives, designed for the continuous running and installation position that the tower requires.
+- Tyre changer gearboxes: Gearboxes for tyre changing machines, built to the machine maker’s envelope and supplied as a volume product.
+
+## Industries and applications
+
+- Aquaculture: Paddle-wheel aerators for prawn and shrimp ponds (A-Series)
+- Water and wastewater: Aeration systems and water pumps (A-Series, G-Series, GAL-Series)
+- Food processing: Grinders and processing machinery (G-Series, GAL-Series)
+- Pharmaceutical: Clean, lightweight drives for process lines (GAL-Series)
+- Material handling: Conveyors and handling equipment (G-Series, B-Series, H-Series)
+- Mining and crushing: Crushers and slow-speed, high-torque drives (H-Series)
+- Agriculture: Farm and agricultural machinery (H-Series, G-Series)
+- Automotive: Steering mechanisms and vehicle projects (B-Series, M-Series)
+- Cement and construction: Concrete mixer and milling components (C-Series)
+- Packaging: Packaging machinery drives (G-Series)
+- Industrial automation: Special-purpose and prototype machinery (M-Series, Z-Series)
+- Cooling and lifting: Cooling tower, screw-jack and tyre changer drives (Z-Series)
+
+## How to enquire
+
+Send the application, required ratio or output speed, motor power, mounting position and quantity through https://www.gishnugears.com/contact/ or call +91 99439 17774. Datasheets are supplied on request.

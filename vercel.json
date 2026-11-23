@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/index.html",
+      "destination": "/products/",
+      "statusCode": 301
+    },
+    {
+      "source": "/projects/index.html",
+      "destination": "/projects/",
+      "statusCode": 301
+    },
+    {
+      "source": "/infrastructure/index.html",
+      "destination": "/infrastructure/",
+      "statusCode": 301
+    },
+    {
+      "source": "/about-us/index.html",
+      "destination": "/about-us/",
+      "statusCode": 301
+    },
+    {
+      "source": "/careers/index.html",
+      "destination": "/careers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact/index.html",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy-policy/index.html",
+      "destination": "/privacy-policy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/Infrastructure/:path*",
+      "destination": "/infrastructure/",
+      "statusCode": 301
+    },
+    {
+      "source": "/Infrastructure222/:path*",
+      "destination": "/infrastructure/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact.php/:path*",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact-us/:path*",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog22/:path*",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/careers22/:path*",
+      "destination": "/careers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/series",
+      "destination": "/products/",
+      "statusCode": 301
+    },
+    {
+      "source": "/series/index.html",
+      "destination": "/products/",
+      "statusCode": 301
+    },
+    {
+      "source": "/series/galseries.html",
+      "destination": "/series/gal-series.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/z-series.html",
+      "destination": "/series/z-series.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/custome-built/:path*",
+      "destination": "/products/custom-built-gearboxes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/g-series/Gu-type.html",
+      "destination": "/products/gu-type-worm-gearbox.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/g-series/Gv-type.html",
+      "destination": "/products/gv-type-worm-gearbox.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/Choosing-the-Right G-Series-Gearbox-for-Your-Application.html",
+      "destination": "/blog/choosing-the-right-g-series-gearbox-for-your-application.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/Choosing-the-Right%20G-Series-Gearbox-for-Your-Application.html",
+      "destination": "/blog/choosing-the-right-g-series-gearbox-for-your-application.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/G-Series-Gearboxes-Built-for-Reliability-and-Longevity.html",
+      "destination": "/blog/g-series-gearboxes-built-for-reliability-and-longevity.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/Gisnu-G-Series-Powering-Innovation-in-Industry.html",
+      "destination": "/blog/gishnu-g-series-powering-innovation-in-industry.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/unlocking-power-with-gishnu-g-serier.html",
+      "destination": "/blog/unlocking-power-with-gishnu-g-series-gearboxes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/all-product",
+      "destination": "/all-product.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/all-products",
+      "destination": "/all-product.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/all-products.html",
+      "destination": "/all-product.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/aerator-gearboxes",
+      "destination": "/aerator-gearboxes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/about",
+      "destination": "/about-us/",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy-policy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/:path*",
+      "destination": "/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/:path*",
+      "destination": "/",
+      "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), browsing-topics=()"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(css|js|fonts)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(img|og|video)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/(favicon.ico|favicon.svg|apple-touch-icon.png|site.webmanifest)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    },
+    {
+      "source": "/(llms.txt|llms-full.txt)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}

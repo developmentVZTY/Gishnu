@@ -1,0 +1,8 @@
+# robots.txt for https://www.gishnugears.com
+# All public content may be crawled, including CSS, JavaScript and images.
+# The site has no private or administrative routes.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.gishnugears.com/sitemap.xml
