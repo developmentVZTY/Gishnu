@@ -1,0 +1,7 @@
+# Source, tooling and documentation are not part of the deployed website.
+# Vercel serves the generated files in the repository root as-is (no build step).
+src
+tools
+docs
+.vscode
+README.md

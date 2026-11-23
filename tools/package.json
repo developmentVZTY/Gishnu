@@ -1,0 +1,18 @@
+{
+  "name": "gishnugears-site-tools",
+  "private": true,
+  "type": "module",
+  "description": "Build tooling for gishnugears.com. The site itself has no runtime dependencies; these are only needed to regenerate images.",
+  "scripts": {
+    "build": "node build.mjs",
+    "images": "node images.mjs",
+    "og": "node og.mjs",
+    "check": "node check.mjs",
+    "serve": "node serve.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12",
+    "playwright-core": "^1.60.0",
+    "sharp": "^0.34.5"
+  }
+}
