@@ -1,0 +1,9 @@
+Fonts in this folder are self-hosted and licensed under the SIL Open Font License 1.1.
+
+Archivo (variable: weight + width axes) — Copyright The Archivo Project Authors
+  https://github.com/Omnibus-Type/Archivo
+IBM Plex Mono — Copyright IBM Corp.
+  https://github.com/IBM/plex
+
+Licence text: https://openfontlicense.org/open-font-license-official-text/
+Files obtained from the Fontsource distribution (Latin subset).
